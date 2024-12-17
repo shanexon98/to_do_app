@@ -7,9 +7,8 @@ Este proyecto es una aplicación de gestión de tareas desarrollada con **Flutte
 - [Características](#características)
 - [Arquitectura](#arquitectura)
 - [Estructura del Proyecto](#estructura-del-proyecto)
-- [Requisitos Previos](#requisitos-previos)
 - [Instrucciones para Ejecutar el Proyecto](#instrucciones-para-ejecutar-el-proyecto)
-- [Tecnologías Utilizadas](#tecnologías-utilizadas)
+
 
 
 ---
@@ -42,37 +41,6 @@ La aplicación sigue los principios de **Clean Architecture**. Está dividida en
 
 ---
 
-## Estructura del Proyecto
-
-lib/
-       
-├── Core ── utils.dart 
-├── features/
-│   └── task/
-│       ├── data/
-│       │   ├── datasources/
-│       │   │   └── task_data_source.dart
-│       │   ├── models/
-│       │   │   └── task_model.dart
-│       ├── domain/
-│       │   ├── entities/
-│       │   │   └── task.dart
-│       │   ├── usecases/
-│       │   │   ├── add_task_usecase.dart
-│       │   │   ├── delete_task_usecase.dart
-│       │   │   ├── get_tasks_usecase.dart
-│       │   │   └── update_task_usecase.dart
-│       ├── presentation/
-│       │   ├── bloc/
-│       │   │   ├── task_bloc.dart
-│       │   │   ├── task_event.dart
-│       │   │   └── task_state.dart
-│       │   ├── pages/
-│       │   │   └── task_page.dart
-│       │   ├── widgets/
-│       │       └── task_list.dart
-                └── text_default.dart
-└── main.dart
 
 ## Instrucciones de Instalación
 
