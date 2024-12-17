@@ -7,9 +7,8 @@ Este proyecto es una aplicación de gestión de tareas desarrollada con **Flutte
 - [Características](#características)
 - [Arquitectura](#arquitectura)
 - [Estructura del Proyecto](#estructura-del-proyecto)
-- [Requisitos Previos](#requisitos-previos)
 - [Instrucciones para Ejecutar el Proyecto](#instrucciones-para-ejecutar-el-proyecto)
-- [Tecnologías Utilizadas](#tecnologías-utilizadas)
+
 
 
 ---
@@ -42,38 +41,13 @@ La aplicación sigue los principios de **Clean Architecture**. Está dividida en
 
 ---
 
-## Estructura del Proyecto
-
-lib/
-       
-├── Core ── utils.dart 
-├── features/
-│   └── task/
-│       ├── data/
-│       │   ├── datasources/
-│       │   │   └── task_data_source.dart
-│       │   ├── models/
-│       │   │   └── task_model.dart
-│       ├── domain/
-│       │   ├── entities/
-│       │   │   └── task.dart
-│       │   ├── usecases/
-│       │   │   ├── add_task_usecase.dart
-│       │   │   ├── delete_task_usecase.dart
-│       │   │   ├── get_tasks_usecase.dart
-│       │   │   └── update_task_usecase.dart
-│       ├── presentation/
-│       │   ├── bloc/
-│       │   │   ├── task_bloc.dart
-│       │   │   ├── task_event.dart
-│       │   │   └── task_state.dart
-│       │   ├── pages/
-│       │   │   └── task_page.dart
-│       │   ├── widgets/
-│       │       └── task_list.dart
-                └── text_default.dart
-└── main.dart
 
 ## Instrucciones de Instalación
 
 Para instalar y ejecutar este proyecto en tu máquina local, descarga el SDK de Flutter configura tu ambiente y baja el proyecto desde github, cuando lo tengas instala las dependencias con flutter pub get, luego corre tu emulador y flutter run o F5 para correr el proyecto. 
+
+
+![photo_5121119180853197595_y](https://github.com/user-attachments/assets/031cb259-a9f7-4648-b7dc-3ef656c78fe5)
+![photo_5121119180853197596_y](https://github.com/user-attachments/assets/49777f78-b949-4685-8660-efe43d157f91)
+![photo_5121119180853197593_y](https://github.com/user-attachments/assets/9191c619-bc16-435e-bc86-32058c2a9981)
+![photo_5121119180853197594_y](https://github.com/user-attachments/assets/82ab24bd-e111-4014-8308-45f7a30c43bc)
