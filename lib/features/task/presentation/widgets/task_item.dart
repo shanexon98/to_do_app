@@ -18,6 +18,7 @@ class TaskItemWidget extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
       child: Container(
         padding: const EdgeInsets.all(12.0),
+
         decoration: BoxDecoration(
           gradient: LinearGradient(
             colors: [
@@ -41,6 +42,7 @@ class TaskItemWidget extends StatelessWidget {
         ),
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             // Icono de estado de la tarea
             IconButton(
@@ -167,9 +169,7 @@ Future<bool?> _showDeleteConfirmationDialog(BuildContext context) async {
                 borderRadius: BorderRadius.circular(10),
               ),
             ),
-            onPressed: () {
-              Navigator.of(context).pop(true);
-            },
+            onPressed: () => Navigator.of(context).pop(true),
             child: const TextDefault(
               sizeText: 15,
               text: "ELIMINAR",
